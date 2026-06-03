@@ -33,16 +33,16 @@ def updateUI():
         lbls[i].value=f"{names[i]}: {app.data[i]}%" if i < len(app.data) else f"{names[i]}: No Data"
     
     finalGrade=calculateYearGrade(app.data)
-    if len(app.data)==5:
+    if len(app.data) == 5:
         lblG.value=f"Year 1 Grade: {finalGrade}%"
-        gradeList[app.c]=finalGrade
+        gradeList[app.c] = finalGrade
     else:
-        lblG.value="Year 1 Grade: (Pending Data)"
+        lblG.value = "Year 1 Grade: (Pending Data)"
 
 bC = Rect(15, 80, 130, 30, fill = 'orange')
-Label('Next Class', 80, 95, fill='white', bold=True)
+Label('Next Class', 80, 95, fill = 'white', bold=True)
 
-bA=Rect(15, 130, 130, 40, fill='teal')
+bA = Rect(15, 130, 130, 40, fill = 'teal')
 Label('+ Enter Next Grade', 80, 150, fill='white', bold=True)
 
 def onMousePress(x,y):
