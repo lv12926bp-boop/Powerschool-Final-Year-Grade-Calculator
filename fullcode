@@ -56,3 +56,5 @@ def onMousePress(x,y):
         val=app.getTextInput(f"Enter grade for {names[len(app.data)]}:")
         if val.replace('.', '', 1).isdigit():
             addGrade(float(val))  
+
+// AI was used to help make the program above for the calculations of grades, the AI software used was Google Gemini.
