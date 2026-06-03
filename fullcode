@@ -29,7 +29,7 @@ def calculateYearGrade(grades): // uses all 5 inputs Calculates the final Year 1
         total+=g
     return rounded(total/5) if len(grades)==5 else 0
 
-def updateUI():
+def updateUI(): // Updates everything displayed on the screen.
     for i in range(5):
         lbls[i].value=f"{names[i]}: {app.data[i]}%" if i < len(app.data) else f"{names[i]}: No Data"
     
