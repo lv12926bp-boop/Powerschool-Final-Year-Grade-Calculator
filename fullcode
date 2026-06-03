@@ -39,7 +39,7 @@ def updateUI():
     else:
         lblG.value="Year 1 Grade: (Pending Data)"
 
-bC=Rect(15, 80, 130, 30, fill='orange')
+bC = Rect(15, 80, 130, 30, fill = 'orange')
 Label('Next Class', 80, 95, fill='white', bold=True)
 
 bA=Rect(15, 130, 130, 40, fill='teal')
