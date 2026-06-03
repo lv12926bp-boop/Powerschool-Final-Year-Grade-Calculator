@@ -11,7 +11,7 @@ Label('ACADEMIC PERFORMANCE', 280, 30, fill='darkSlateBlue', size = 16, bold = T
 
 app.c = 0
 app.data = []
-lblC=Label(classNames[app.c], 280,60,size=14,bold=True)
+lblC = Label(classNames[app.c], 280, 60, size=14, bold=True)
 lblG=Label('Year 1 Grade: --', 280, 260, size=17, bold=True, fill='crimson')
 
 lbls=[Label('', 280, 100 + i*25, size=12) for i in range(5)]
