@@ -1,6 +1,7 @@
 app.background = 'ghostWhite'
 
 classNames = ['Precalculus', 'AP Biology', 'AP U.S History', 'AP Language and Composition', 'AP Literature']
+// Line above includes all potential classes the user can choose from
 gradeList = [0, 0, 0, 0, 0]
 
 Rect(0, 0, 160, 400, fill = 'darkSlateBlue')
