@@ -47,7 +47,7 @@ Label('+ Enter Next Grade', 80, 150, fill='white', bold=True)
 
 def onMousePress(x,y):
     if bC.contains(x,y):
-        app.c=(app.c+1)%4
+        app.c=(app.c+1)%5
         lblC.value=classNames[app.c]
         app.data=[]
         updateUI()
