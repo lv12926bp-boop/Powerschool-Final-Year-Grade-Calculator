@@ -5,7 +5,7 @@ gradeList = [0, 0, 0, 0, 0]
 
 Rect(0, 0, 160, 400, fill = 'darkSlateBlue')
 Label('Grade Inputs', 80, 25, fill =  'white', size = 14, bold = True)
-Label('(Click Edit to type)', 80, 45, fill = 'lightGray', size = 10)
+Label('(Click + Enter Grade)', 80, 45, fill = 'lightGray', size = 10)
 
 Label('ACADEMIC PERFORMANCE', 280, 30, fill='darkSlateBlue', size = 16, bold = True)
 
