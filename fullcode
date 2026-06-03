@@ -23,7 +23,7 @@ def addGrade(score): // Adds a grade to the current class.
         app.data.append(score)
         updateUI()
 
-def calculateYearGrade(grades):
+def calculateYearGrade(grades): // uses all 5 inputs Calculates the final Year 1 grade.
     total = 0
     for g in grades:
         total+=g
