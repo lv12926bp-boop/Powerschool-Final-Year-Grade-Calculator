@@ -53,5 +53,5 @@ def onMousePress(x,y):
         updateUI()
     elif bA.contains(x,y) and len(app.data)<5:
         val=app.getTextInput(f"Enter grade for {names[len(app.data)]}:")
-        if val.isdigit():
+        if val.replace('.', '', 1).isdigit():
             addGrade(float(val))  
