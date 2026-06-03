@@ -1,4 +1,4 @@
-app.background = 'ghostWHite'
+app.background = 'ghostWhite'
 
 classNames = ['Precalculus', 'AP Biology', 'AP U.S History', 'AP Language and Composition', 'AP Literature']
 gradeList = [0, 0, 0, 0, 0]
